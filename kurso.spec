@@ -3,10 +3,11 @@ Summary(pl):	Kurs jêzyka esperanto
 Name:		kurso
 Version:	20040531
 Release:	0.1
-License:	GPL (w/o sources - sic!)
+License:	GPL (w/o sources - sic! - so non-distributable, possibly illegal)
 Group:		X11/Applications/Science
 Source0:	http://www.cursodeesperanto.com.br/%{name}.tar.gz
-# Source0-md5:	480a07c5daf67e5fa0527f252f328af0
+# NoSource0-md5:	480a07c5daf67e5fa0527f252f328af0
+NoSource:	0
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://www.cursodeesperanto.com.br/bazo/index.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -49,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/kurso3
+%attr(755,root,root) %{_libdir}/*
 %{_datadir}/kurso
 %{_sysconfdir}/kurso.conf
-%attr(755,root,root) %{_libdir}/*
