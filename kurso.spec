@@ -8,7 +8,6 @@ Group:		X11/Applications/Science
 Source0:	http://www.cursodeesperanto.com.br/%{name}.tar.gz
 # NoSource0-md5:	480a07c5daf67e5fa0527f252f328af0
 NoSource:	0
-Patch0:		%{name}-DESTDIR.patch
 URL:		http://www.cursodeesperanto.com.br/bazo/index.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ExclusiveArch:	%{ix86}
@@ -21,7 +20,6 @@ Kurs jêzyka esperanto.
 
 %prep
 %setup -q -c -n %{name}
-%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
