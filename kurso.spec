@@ -3,8 +3,8 @@ Summary(pl):	Kurs jêzyka esperanto
 Name:		kurso
 Version:	20040531
 Release:	0.1
-License:	GPL
-Group:		Development/Languages/Python
+License:	GPL (w/o sources - sic!)
+Group:		X11/Applications/Science
 Source0:	http://www.cursodeesperanto.com.br/%{name}.tar.gz
 # Source0-md5:	480a07c5daf67e5fa0527f252f328af0
 Patch0:		%{name}-DESTDIR.patch
