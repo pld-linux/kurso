@@ -50,4 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/kurso3
 %attr(755,root,root) %{_libdir}/*
 %{_datadir}/kurso
-%{_sysconfdir}/kurso.conf
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/kurso.conf
