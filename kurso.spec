@@ -1,5 +1,5 @@
 Summary:	Esperanto language course
-Summary(pl):	Kurs jêzyka Esperanto
+Summary(pl):	Kurs jêzyka esperanto
 Name:		kurso
 Version:	20040531
 Release:	0.1
@@ -16,7 +16,7 @@ ExclusiveArch:	%{ix86}
 Esperanto language course.
 
 %description -l pl
-Kurs jêzyka Esperanto.
+Kurs jêzyka esperanto.
 
 %prep
 %setup -q -c -n %{name}
