@@ -1,5 +1,5 @@
 Summary:	Esperanto language course
-Summary(pl.UTF-8):   Kurs języka esperanto
+Summary(pl.UTF-8):	Kurs języka esperanto
 Name:		kurso
 Version:	20040531
 Release:	0.1
